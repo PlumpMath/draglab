@@ -1,0 +1,30 @@
+h1 {
+  text-decoration: underline;
+}
+
+.draggable-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-bottom-width: 0px;
+}
+
+.draggable, .spacer-cell {
+    background-color: white;
+    padding: 4px;
+    list-style: none;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 1px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: move;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.draggable.dragging {
+    border-width: 1px;
+}
